@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Virus</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Hurricane&family=Indie+Flower&family=Noto+Serif&family=PT+Serif:ital@1&family=Prata&family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Hurricane&family=Indie+Flower&family=Noto+Serif&family=PT+Serif:ital@1&family=Prata&family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Gideon+Roman&family=Hurricane&family=Indie+Flower&family=Noto+Serif&family=PT+Serif:ital@1&family=Prata&family=Sansita+Swashed:wght@500&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=El+Messiri&family=Gideon+Roman&family=Hurricane&family=Indie+Flower&family=Noto+Serif&family=PT+Serif:ital@1&family=Prata&family=Sansita+Swashed:wght@500&family=Satisfy&display=swap" rel="stylesheet">
+
+</head>
+
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+       
+    }
+    nav{
+        display: flex;
+        padding: 10px 10px;
+        background-color: rgb(22, 21, 21);
+    }
+    .item{
+        padding: 10px 10px;  
+    }
+    nav li{
+        padding: 10px 10px;
+        margin-left: 40px;
+        /* margin-left: 50px; */
+        font-size: 30px;
+        list-style: none;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    nav:hover{
+        cursor: pointer;
+        background-color: rgb(46, 46, 46);   
+    }
+    li a{
+        text-decoration: none;
+        padding: 10px;
+        font-weight: bold;
+        color: antiquewhite;
+    }
+    li a:hover{
+        color: rgb(219, 115, 115);
+        cursor: pointer;
+    }
+    .con{
+        height: 2650px;
+        border: 3px solid black;
+        border-radius: 20px;
+        max-width: 1000px;
+        background-color: rgba(240, 234, 234, 0.575);
+        margin: 12px auto;
+        padding: 20px;
+    }
+    
+    .cont p{
+        
+        font-family: 'Hurricane', cursive;
+        font-size: 40px;
+        text-align: center;
+        color: rgba(35, 17, 202, 0.904);
+        font-weight: bolder;
+      
+    }
+    .cont p:hover{
+        cursor: pointer;
+        color: rgb(170, 20, 20);
+    }
+    .cont h4{
+        font-size: 30px;
+        color: rgb(8, 8, 8);
+        margin-top: 10px;
+        font-weight: bolder;
+        
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .cont h4:hover{
+        color: rgb(27, 5, 88);
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .cont h1{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 60px;
+        font-family: 'Cinzel', serif;
+        color: rgb(1, 14, 15);
+        font-weight: bolder;
+    }
+    .cont h1:hover{
+        text-decoration: underline ;
+        color: rgb(27, 5, 88);
+        cursor: pointer;
+    }
+    body{
+        background: url("pc.jpg");
+        background-repeat:  no-repeat;  
+        background-size: cover; 
+    }
+    .box h1{
+        color: rgb(15, 14, 14);
+        margin-top: 0px;
+        font-size: 40px;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight:bold;   
+    }
+    .box h1:hover{
+        color: rgb(27, 5, 88);
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .box li{
+        /* margin-left: 40px; */
+        list-style-type: disc;
+        font-size: 23px;
+        
+        font-weight: bolder;
+        font-family: 'El Messiri', sans-serif;
+        margin-left: 70px;
+        margin-top: 5px;
+        color: rgba(23, 25, 179, 0.904);
+    }
+    .box li:hover{
+        color: rgb(187, 18, 18);
+        cursor: pointer;
+    }
+    
+    .ques{
+       background: url("faq.jpg");
+       /* filter: invert(); */
+        /* border: 3px solid rgb(202, 7, 7); */
+       filter: blur();
+        height: 1560px;
+       
+        border-radius: 15px;
+        background-color:rgba(214, 171, 171, 0.986);
+    }
+    .ques h1{
+        color: black;
+        font-size: 20px;
+        text-align: left;
+        text-decoration: none;
+        font-family: 'Prata', serif;
+        font-weight: bolder;
+        margin-left: 15px;
+        padding-top: 40px;
+    }
+    .ques h1:hover{
+        color: brown;
+        cursor: pointer;
+    }
+   
+    .ques h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 10px;
+        font-weight: bolder;
+        padding-top: 10px;
+    }
+    .ques h2:hover{
+        text-decoration: underline;
+        cursor: pointer;
+        color: brown;
+    }
+    .ques p{
+        text-decoration: none;
+        font-size: 20px;
+       color: rgb(4, 9, 80);
+        padding-left: 20px;
+      padding-top: 5px;
+      text-align: left;
+      font-family: 'El Messiri', sans-serif;
+        font-weight: bolder;
+
+    }
+    .ques p:hover{
+        color: rgb(228, 18, 18);
+        cursor: pointer;
+    }
+    .ques h6{
+        font-weight: bold;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+    .ques h6:hover{
+        color: brown;
+        text-decoration: underline;
+    }
+</style>
+<body>
+    <nav>
+        <li class="item1"> <a href="#"> Home</a></li>
+        <li class="item2"> <a href="#"> About</a></li>
+        <li class="item3"> <a href="#"> MoHFW Web4ite</a></li>
+        <li class="item4"> <a href="#"> Hospitals</a></li>
+    </nav>
+    <div class="con">
+        <div class="cont">
+            <h1>Covid-19 : Stay Home Stay Safe</h1>
+            <h4>#India Fights Covid-19</h4>
+            <p>A deadly wave of COVID-19 is overwhelming India: New cases have hit 400,000+ per day, and more than 
+            215,000 people have lost their lives. The health system is buckling under demand, but we're helping families reach vaccinations as we work in close contact with health workers who need masks, COVID-19 test kits, and disinfectant to save lives and stay safe.
+                
+     <div class="box">
+         <h1>Precautions</h1>
+         <li>Maintain a safe distance from others (at least 1 metre), even if they don’t appear to be sick.      
+        </li>
+        <li>Wear a mask in public, especially indoors or when physical distancing is not possible.</li>
+      <li>Choose open, well-ventilated spaces over closed ones. Open a window if indoors.</li>
+      <li>Clean your hands often. Use soap and water, or an alcohol-based hand rub.</li>
+      <li>Get vaccinated when it’s your turn. Follow local guidance about vaccination.</li>
+      <li>Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.</li>
+      <li>Stay home if you feel unwell.</li>
+      <li>If you have a fever, cough and difficulty breathing, seek medical attention. Call in advance so 
+          your healthcare   provider can direct you to the right health facility. This protects you, and prevents the spread of   viruses and other infections.</li>
+      <li>
+        Properly fitted masks can help prevent the spread of the virus from the person wearing the mask to others. Masks alone do not protect against COVID-19, and should be combined with physical distancing and hand hygiene. Follow the advice provided by your local health authority.</li>
+      </ul>
+ 
+     </div>
+     <br>
+    <div class="ques">
+      <h2>FAQs-Frequently Asked Questions</h2>
+     <h1>1.What is corona virus?</h1>
+     <p>
+         
+         Corona viruses are a large family of viruses which may cause illness in animals or humans. In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19.         
+        </p> 
+        <h1>2.What is COVID-19?</h1>
+        
+        <p>
+         COVID-19 is the infectious disease caused by the most recently discovered corona virus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019.</p>
+         
+         <h1>3.How does COVID-19 spread?</h1>
+ <p>
+ People can catch COVID-19 from others who have the virus. The
+ disease can spread from person to person through small droplets from
+ t he nose or mouth which are spread when a person with COVID-19
+ coughs or exhales. These droplets land on objects and surfaces around
+ the person. Other people then catch COVID-19 by touching these
+ objects or surfaces, then touching their eyes, nose or mouth. People
+ can also catch COVID-19 if they breathe in droplets from a person
+ with COVID-19 who coughs out or exhales droplets. This is why it is
+ important to stay more than 1 meter (3 feet) away from a person
+ who is sick.
+ </p>
+
+ <h1>4.Can the virus that causes COVID-19 be transmitted through the air?</h1>
+<p>
+    Studies to date suggest that the virus that causes COVID-19 is mainly
+    transmitted through contact with respiratory droplets rather than
+    through the air.</p>
+    
+    <h1>5.Can CoVID-19 be caught from a person who has no symptoms?</h1>
+    
+    <p> The main way the disease spreads is through respiratory droplets
+        expelled by someone who is coughing. The risk of catching COVID-19
+        from someone with no symptoms at all is very low. However, many
+        people with COVID-19 experience only mild symptoms. This is
+        particularly true at the early stages of the disease. It is therefore
+        possible to catch COVID-19 from someone who has, for example, just
+        a mild cough and does not feel ill. </p>
+        
+     <h1>6.Can I catch COVID-19 from the feces of someone with the disease?</h1>
+ 
+ <p> The risk of catching COVID-19 from the feces of an infected person
+     appears to be low. While initial investigations suggest the virus may
+  be present in feces in some cases, spread through this route is not a
+   main feature of the outbreak. The ongoing research on the ways
+  COVID-19 is spread and will continue to share new findings. Because
+  this is a risk, however, it is another reason to clean hands regularly,
+    after using the bathroom and before eating.</p>
+
+   <h1>7.What can I do to protect myself and prevent the spread of disease?</h1>
+
+    <h6> Protection measures for everyone: </h6>
+<p>
+    Stay aware of the latest information on the COVID-19 outbreak,
+    available on the national,state and local public health authority. Many
+    countries around the world have seen cases of COVID-19 and several
+    have seen outbreaks. Authorities in China and some other countries
+    have succeeded in slowing or stopping their outbreaks. However, the
+    situation is unpredictable so check regularly for the latest news.    
+ </p>
+ </div>
+
+ </div>
+</body>
+</html>
